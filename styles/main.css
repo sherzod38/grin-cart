@@ -1,0 +1,86 @@
+
+main h1 {
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+label {
+  margin-bottom: 13px;
+}
+input {
+  background-color: #dfdede;
+  padding-right: 94px;
+}
+#username {
+  margin-left: 120px;
+  
+}
+#surname {
+  margin-left: 90px;
+}
+#phone { 
+  margin-left: 55px;
+}
+#e_mail {
+  margin-left: 103px;
+}
+#data {
+  margin-left: 59px;
+  padding-right: 104px;
+}
+#fail {
+  margin-left: 59px;
+  padding: 0;
+  margin-right: 0;
+}
+.gender {
+  display: flex;
+  align-self: flex-start;
+}
+.woman {
+  margin-left: 90px;
+}
+#color_rang {
+  margin-left: 63px;
+  padding-right: 205px;
+}
+#food {
+  margin-left: 23px;
+}
+/* #teacher {
+  margin-left: 0px;
+} */
+select {
+  padding: 7px 54px;
+  background-color: #dfdede;
+}
+#comment {
+  margin-left: 16px;
+  width: 249px;
+  height: 117px;
+  resize: none;
+  background-color: #dfdede;
+}
+#remember {
+  margin-left: 60px;
+  /* display: flex; */
+  align-self: flex-start;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+button {
+  padding: 9px 20px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>GREEN CARD</h1>
+      <form action="https://echo.htmlacademy.ru/">
+        <fieldset>
+          <legend>Foydalanuvchi</legend>
+
+          <label for="username" class="user"
+            >ISM
+            <input
+              type="text"
+              name="ism"
+              placeholder="Ismingiz"
+              id="username"
+            />
+            </label>
+
+          <label for="surname"
+            >Familiya
+            <input
+              type="text"
+              surname="familiya"
+              placeholder="familiya"
+              id="surname"
+            />
+          </label>
+
+          <label for="phone"
+            >Telefon raqam
+            <input type="tel" name="tel" id="phone" />
+          </label>
+
+          <label for="e_mail"
+            >E-mail
+            <input type="email" name="email" id="e_mail" />
+          </label>
+
+          <label for="data"
+            >Tug'ilgan kun
+            <input type="date" name="date" id="data" />
+          </label>
+
+          <label for="fail"
+            >Passport scan
+            <input type="file" name="file" id="fail" />
+          </label>
+
+          <label for="jinsi" class="gender">Jinsingiz
+            <label for="jins_a" class="woman">Ayol
+              <input type="radio" name="radio" id="jins_a" />
+            </label>
+            <label for="jins_e">Erkak
+              <input type="radio" name="radio" id="jins_e" />
+            </label>
+          </label>
+          <label for="color_rang"
+            >Sevimli rang
+            <input type="color" name="color" id="color_rang" />
+          </label>
+
+          <label for="food"
+            >Sevimli ovqatingiz
+            <input list="ovqat" name="text" id="food" />
+            <datalist id="ovqat" >
+               <option value="osh">osh</option>
+               <option value="olma">olma</option>
+            </datalist>  
+          </label>
+
+          <label for="teacher"
+            >Sevimli o'qituvchingiz
+            <select name="teacher" id="teacher">
+              <option value="teacher" disabled>Khumoyun Inoyatov</option>
+              <option value="teacher">Khumoyun Inoyatov</option>
+              <option value="teacher">va boshqalar</option>
+              
+            </select>
+              
+            
+          </label>
+
+          <label for="comment"
+            >O'zingiz haqingizda
+            <textarea name="izoh" id="comment" cols="30" rows="10" ></textarea>
+          </label>
+
+          <label for="remember"
+            >Eslab qolish:
+            <input type="checkbox" name="rememberer" id="remember" />
+          </label>
+          <div class="wrapper">
+            <button type="submit">Topshirish</button>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
